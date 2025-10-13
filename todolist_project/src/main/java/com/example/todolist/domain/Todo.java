@@ -30,9 +30,9 @@ public class Todo {
     @JsonIgnore
     private AppUser user;
 
-    /**
-     * DTO에서 Entity로 변환할 때 사용되는 명시적 생성자입니다.
-     * 매개변수 목록이 다르므로 @NoArgsConstructor와 충돌하지 않습니다.
+    /*
+      DTO에서 Entity로 변환할 때 사용되는 명시적 생성자입니다.
+      매개변수 목록이 다르므로 @NoArgsConstructor와 충돌하지 않습니다.
      */
     public Todo(String content, boolean isCompleted, AppUser user) {
         this.content = content;

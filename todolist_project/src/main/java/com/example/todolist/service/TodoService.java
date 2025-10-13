@@ -11,7 +11,7 @@ import java.util.Optional;
 /*
   - **`clearCompletedTodos()`**: 현재 로그인된 사용자의 완료된(`isCompleted = true`) 모든 할 일을 삭제합니다.
 
-      - **로직**: 현재 인증된 사용자의 `id`를 가져옵니다. 해당 사용자의 `Todo` 목록 중 `isCompleted`가 `true`인 항목들을 모두 찾아서 한 번에 삭제합니다.
+  - **로직**: 현재 인증된 사용자의 `id`를 가져옵니다. 해당 사용자의 `Todo` 목록 중 `isCompleted`가 `true`인 항목들을 모두 찾아서 한 번에 삭제합니다.
  */
 @Service
 public class TodoService {
